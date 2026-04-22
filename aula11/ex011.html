@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu pais</title>
+</head>
+<body>
+    <h1>Escreva o Pais que você vive:</h1>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Enviar" onclick="enviou()">
+    <div id="res"></div>
+
+    <script>
+        function enviou(){
+
+        
+        var pas = document.getElementById('txtpais')
+        var res = document.getElementById('res')
+        if (pas != 'Brasil'){
+            res.innerHTML = `<p>Você e <strong>Estrangeiro</strong></p>`
+        } else {
+            res.innerHTML = `<p>Você e <strong>Brasileiro</strong></p>`
+        }
+
+    }
+    </script>
+</body>
+</html>
