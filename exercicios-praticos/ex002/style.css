@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body{
-    background-color: rgb(92, 200, 243);
+    background-color: rgb(125, 125, 243);
     font:normal 15pt arial;
     
 }
@@ -15,15 +15,6 @@ section{
     width: 400px;
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
-}
-div{
-    text-align: center;
-    padding: 10px;
-}
-img#imagem{
-    border-radius: 50%;
-    width: 200px;
-    height: 250px;
 }
 footer{
     color: white;
